@@ -29,13 +29,12 @@ footer a:hover {
   box-sizing: border-box;
 }
 
-
 h1 {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   font-size: 40px;
   text-transform: uppercase;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-bottom: 30px;
   text-shadow: 5px 5px 10px #e52a88;
 }
@@ -110,70 +109,79 @@ h1 {
 
 @media only screen and (max-width: 480px) {
   .fondo {
-    background-color: #000000;
+    background-color: pink;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .fondo {
-    background-color: #6cf03c;
+    background-color: pink;
     grid-template-columns: 1fr 1fr;
   }
+
   .item {
     min-height: 150px;
     min-width: 150px;
   }
 }
-@media only screen and (min-width: 602px) {
-  .fondo {
-    background-color: #3caef0;
-  }
-}
+
+@media only screen and (min-width: 602px) {}
+
 @media only screen and (min-width: 768px) {
   .fondo {
     background-color: #ba3cf0;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   .item1 {
     grid-row-start: 1;
     grid-row-end: 3;
   }
+
   .item4 {
     grid-row-start: 2;
     grid-row-end: 4;
   }
+
   .item2 {
     grid-column-start: 2;
     grid-column-end: 4;
     background-position: center;
   }
+
   .item8 {
     grid-column-start: 2;
     grid-column-end: 4;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .fondo {
-    background-color: #3cf0cf;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
   .item2 {
     grid-column-start: 2;
     grid-column-end: 3;
   }
+
   .item3 {
     grid-column-start: 3;
     grid-column-end: 5;
   }
+
   .item8 {
     grid-column-start: 3;
     grid-column-end: 5;
   }
 }
+
 @media only screen and (min-width: 1200px) {
   .fondo {
     background-color: #565656;
   }
 }
+
 .call {
   width: 70%;
   text-align: center;
@@ -214,4 +222,6 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
