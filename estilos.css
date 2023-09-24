@@ -223,5 +223,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.carousel-item{ width: 300px;}
 
 /*# sourceMappingURL=estilos.css.map */
